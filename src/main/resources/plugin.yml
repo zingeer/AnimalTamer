@@ -1,0 +1,4 @@
+name: AnimalTamer
+version: "1.0-SNAPSHOT"
+main: com.github.zingeer.animaltamer.Plugin
+api-version: 1.16

@@ -1,0 +1,33 @@
+#To reset to default, delete the file and reload the plugin.
+transfer_pet:
+  name: "Transfer pet"
+  description_one: "The menu for transferring"
+  description_two: "a pet to another player."
+information:
+  name: "Information"
+  description: "Master: "
+set_name_pet:
+  name: "Set pet name"
+  description_one: "Menu for setting"
+  description_two: "a name for your pet."
+  sign: "Pet's name"
+  message: "You have set a name for the pet: "
+  message_dropping: "You reset your pet's name."
+horse_key:
+  name: "Horse"
+  description_available: " • Available to all"
+  description_not_available: " • Available only to you"
+trunk_key:
+  name: "Chests"
+  description_available: " • Open"
+  description_not_available: " • Closed"
+transfer_pet_menu:
+  name: "Transfer pet (Page "
+  previous_page: "Previous page"
+  next_page: "Next page"
+  exit: "Exit"
+  message: "You transferred a pet to a player: "
+  message_wrong: "Player not found: "
+  search:
+    name: "Search by nick"
+    sign: "Player name"

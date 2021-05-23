@@ -1,0 +1,33 @@
+#Чтобы сбросить к стандартным значения, удалите файл и перезагрузите плагин.
+transfer_pet:
+  name: "Передача питомца"
+  description_one: "Меню для переноса"
+  description_two: "питомца другому игроку."
+information:
+  name: "Информация"
+  description: "Хозяин: "
+set_name_pet:
+  name: "Установить имя питомца"
+  description_one: "Меню для установки"
+  description_two: "имени вашему питомцу."
+  sign: "Имя питомца"
+  message: "Вы установили имя питомцу: "
+  message_dropping: "Вы сбросили имя своему питомцу."
+horse_key:
+  name: "Лошадь"
+  description_available: " • Доступно всем"
+  description_not_available: " • Доступно только вам"
+trunk_key:
+  name: "Сундуки"
+  description_available: " • Открыты"
+  description_not_available: " • Закрыты"
+transfer_pet_menu:
+  name: "Передать питомца (Страница "
+  previous_page: "Предыдущая страница"
+  next_page: "Следующая страница"
+  exit: "Выход"
+  message: "Вы передали питомца игроку: "
+  message_wrong: "Игрок не найден: "
+  search:
+    name: "Искать по нику"
+    sign: "Имя игрока"
