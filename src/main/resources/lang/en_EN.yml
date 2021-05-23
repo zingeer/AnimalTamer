@@ -1,4 +1,6 @@
 #To reset to default, delete the file and reload the plugin.
+control_pet:
+  name: "Pet control"
 transfer_pet:
   name: "Transfer pet"
   description_one: "The menu for transferring"

@@ -24,7 +24,7 @@ import org.bukkit.inventory.ItemStack
 
 class AnimalControlMenu(
     val animal: Tameable,
-) : InventoryBuilder(plugin, if (animal is Vehicle) 5 else 3, "Управление питомцем", {
+) : InventoryBuilder(plugin, if (animal is Vehicle) 5 else 3, localization.get("control_pet.name"), {
 
     addButton(11, ItemStack(Material.PLAYER_HEAD).apply {
         displayName = "${ChatColor.LIGHT_PURPLE}" + localization.get("transfer_pet.name")
