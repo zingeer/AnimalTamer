@@ -30,7 +30,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.ref }}
-          file: build/libs/BetterBook.jar
+          file: build/libs/AnimalTamer.jar
           release_name  : Release ${{ steps.vars.outputs.tag }}
           body: |
             #### Plugin and Source release ${{ steps.vars.outputs.tag }}
