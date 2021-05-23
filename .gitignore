@@ -1,1 +1,5 @@
 /testServer/
+/.idea/
+/.gradle/
+/build/
+/libs/
